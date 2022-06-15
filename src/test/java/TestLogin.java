@@ -3,6 +3,8 @@
 
 
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -17,6 +19,7 @@ public class TestLogin extends TestBase{
 	
 	
 	
+	@SuppressWarnings("deprecation")
 	@Test
    public void Login() throws Exception{
 		
@@ -24,6 +27,8 @@ public class TestLogin extends TestBase{
  // Provide Log4j configuration settings
 	Log.startTestCase("Login"); 
 	
+	
+	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	 WebElement Username = driver.findElement(By.name(TestConstant.Username));
 	 WebElement Password =driver.findElement(By.name(TestConstant.Password));
 	
@@ -31,7 +36,7 @@ public class TestLogin extends TestBase{
     Log.info("RowCount"+TestData.getRowCount(TestConstant.Sheet1));
     
    
-    for(int iRow = 1;iRow<= TestData.getRowCount(TestConstant.Sheet1);iRow++){
+    for(int iRow = 1;iRow<= 1;iRow++){
     			
    
     Username.sendKeys(Keys.chord(Keys.CONTROL,"a", Keys.DELETE));
@@ -42,10 +47,10 @@ public class TestLogin extends TestBase{
     Log.info("Just Clicked on Sign Button");
     
     
-    Thread.sleep(5000);
+    
   
     
-    /*if(driver.findElements(By.xpath(TestConstant.dashboard)).isEmpty()){
+    if(driver.findElements(By.xpath(TestConstant.dashboard)).isEmpty()){
     	TestData.setCellData("FAIL", iRow,2);
     	
     	  
@@ -55,7 +60,7 @@ public class TestLogin extends TestBase{
     	Log.info("Successfully Logged in");
     
     	  
-    }	*/   
+    }	  
     }
    
      		 

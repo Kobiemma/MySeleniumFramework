@@ -1,205 +1,161 @@
-[INFO ] 2022-06-01 16:11:26.996 [main] Log - X
-[INFO ] 2022-06-01 16:11:27.000 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-01 16:11:27.000 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:11:27.659 [main] Log - RowCount4
-[INFO ] 2022-06-01 16:11:28.552 [main] Log - Just Clicked on Sign Button
-[ERROR] 2022-06-01 16:11:28.868 [main] Log - TestData Class | Method getCellData | Exception descCannot invoke "org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue()" because "Utility.TestData.Cell" is null
-[INFO ] 2022-06-01 16:11:29.744 [main] Log - 06-01-2022_04.11.29_AddCardProfile.png
-[INFO ] 2022-06-01 16:11:29.744 [main] Log - Test Failed atAddCardProfile
-[INFO ] 2022-06-01 16:11:30.073 [main] Log - 06-01-2022_04.11.30_EditCardProfile.png
-[INFO ] 2022-06-01 16:11:30.073 [main] Log - Test Failed atEditCardProfile
-[INFO ] 2022-06-01 16:11:30.075 [main] Log - X
-[INFO ] 2022-06-01 16:11:30.075 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-01 16:11:30.076 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:11:30.275 [main] Log - 06-01-2022_04.11.30_Login.png
-[INFO ] 2022-06-01 16:11:30.275 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-01 16:11:30.288 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-01 16:11:30.288 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:11:30.288 [main] Log - X
-[INFO ] 2022-06-01 16:13:53.204 [main] Log - X
-[INFO ] 2022-06-01 16:13:53.208 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-01 16:13:53.208 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:13:53.914 [main] Log - RowCount4
-[INFO ] 2022-06-01 16:13:54.849 [main] Log - Just Clicked on Sign Button
-[INFO ] 2022-06-01 16:13:56.016 [main] Log - 06-01-2022_04.13.56_Login.png
-[INFO ] 2022-06-01 16:13:56.017 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-01 16:13:56.035 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-01 16:13:56.035 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:13:56.035 [main] Log - X
-[INFO ] 2022-06-01 16:17:28.264 [main] Log - X
-[INFO ] 2022-06-01 16:17:28.267 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-01 16:17:28.267 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:17:28.961 [main] Log - RowCount4
-[INFO ] 2022-06-01 16:17:30.394 [main] Log - Just Clicked on Sign Button
-[INFO ] 2022-06-01 16:17:30.848 [main] Log - Successfully Logged in
-[INFO ] 2022-06-01 16:17:31.205 [main] Log - 06-01-2022_04.17.31_Login.png
-[INFO ] 2022-06-01 16:17:31.206 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-01 16:17:31.221 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-01 16:17:31.222 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:17:31.222 [main] Log - X
-[INFO ] 2022-06-01 16:18:44.626 [main] Log - X
-[INFO ] 2022-06-01 16:18:44.632 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-01 16:18:44.632 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:18:45.364 [main] Log - RowCount4
-[INFO ] 2022-06-01 16:18:45.754 [main] Log - Just Clicked on Sign Button
-[INFO ] 2022-06-01 16:18:47.954 [main] Log - Successfully Logged in
-[INFO ] 2022-06-01 16:18:48.256 [main] Log - 06-01-2022_04.18.48_Login.png
-[INFO ] 2022-06-01 16:18:48.257 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-01 16:18:48.270 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-01 16:18:48.270 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:18:48.270 [main] Log - X
-[INFO ] 2022-06-01 16:25:13.656 [main] Log - X
-[INFO ] 2022-06-01 16:25:13.660 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-01 16:25:13.660 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:25:14.298 [main] Log - RowCount4
-[INFO ] 2022-06-01 16:25:14.697 [main] Log - Just Clicked on Sign Button
-[INFO ] 2022-06-01 16:25:16.965 [main] Log - Successfully Logged in
-[INFO ] 2022-06-01 16:25:17.291 [main] Log - 06-01-2022_04.25.17_Login.png
-[INFO ] 2022-06-01 16:25:17.292 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-01 16:25:17.307 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-01 16:25:17.307 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:25:17.307 [main] Log - X
-[INFO ] 2022-06-01 16:26:31.609 [main] Log - X
-[INFO ] 2022-06-01 16:26:31.613 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-01 16:26:31.613 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:26:32.345 [main] Log - RowCount4
-[INFO ] 2022-06-01 16:26:32.818 [main] Log - Just Clicked on Sign Button
-[INFO ] 2022-06-01 16:26:38.044 [main] Log - Successfully Logged in
-[INFO ] 2022-06-01 16:26:38.343 [main] Log - 06-01-2022_04.26.38_Login.png
-[INFO ] 2022-06-01 16:26:38.343 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-01 16:26:38.360 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-01 16:26:38.360 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:26:38.360 [main] Log - X
-[INFO ] 2022-06-01 16:28:53.400 [main] Log - X
-[INFO ] 2022-06-01 16:28:53.403 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-01 16:28:53.403 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:28:54.062 [main] Log - RowCount4
-[INFO ] 2022-06-01 16:28:54.460 [main] Log - Just Clicked on Sign Button
-[INFO ] 2022-06-01 16:28:59.665 [main] Log - Successfully Logged in
-[INFO ] 2022-06-01 16:29:01.004 [main] Log - 06-01-2022_04.29.01_Login.png
-[INFO ] 2022-06-01 16:29:01.004 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-01 16:29:01.021 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-01 16:29:01.021 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:29:01.021 [main] Log - X
-[INFO ] 2022-06-01 16:31:10.601 [main] Log - X
-[INFO ] 2022-06-01 16:31:10.604 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-01 16:31:10.604 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:31:11.275 [main] Log - RowCount4
-[INFO ] 2022-06-01 16:31:11.653 [main] Log - Just Clicked on Sign Button
-[INFO ] 2022-06-01 16:31:16.887 [main] Log - Successfully Logged in
-[INFO ] 2022-06-01 16:31:17.974 [main] Log - 06-01-2022_04.31.17_Login.png
-[INFO ] 2022-06-01 16:31:17.974 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-01 16:31:17.996 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-01 16:31:17.997 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:31:17.998 [main] Log - X
-[INFO ] 2022-06-01 16:58:19.242 [main] Log - X
-[INFO ] 2022-06-01 16:58:19.245 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-01 16:58:19.245 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:58:19.820 [main] Log - RowCount4
-[INFO ] 2022-06-01 16:58:20.240 [main] Log - Just Clicked on Sign Button
-[INFO ] 2022-06-01 16:58:25.452 [main] Log - Successfully Logged in
-[INFO ] 2022-06-01 16:58:26.847 [main] Log - 06-01-2022_04.58.26_Login.png
-[INFO ] 2022-06-01 16:58:26.847 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-01 16:58:26.862 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-01 16:58:26.863 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:58:26.863 [main] Log - X
-[INFO ] 2022-06-01 16:59:56.574 [main] Log - X
-[INFO ] 2022-06-01 16:59:56.576 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-01 16:59:56.576 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 16:59:57.285 [main] Log - RowCount4
-[INFO ] 2022-06-01 16:59:57.728 [main] Log - Just Clicked on Sign Button
-[INFO ] 2022-06-01 17:00:03.033 [main] Log - Successfully Logged in
-[INFO ] 2022-06-01 17:00:03.712 [main] Log - 06-01-2022_05.00.03_Login.png
-[INFO ] 2022-06-01 17:00:03.712 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-01 17:00:03.729 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-01 17:00:03.729 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 17:00:03.730 [main] Log - X
-[INFO ] 2022-06-01 17:01:22.448 [main] Log - X
-[INFO ] 2022-06-01 17:01:22.450 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-01 17:01:22.451 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 17:01:23.051 [main] Log - RowCount4
-[INFO ] 2022-06-01 17:01:23.465 [main] Log - Just Clicked on Sign Button
-[INFO ] 2022-06-01 17:01:28.687 [main] Log - Successfully Logged in
-[INFO ] 2022-06-01 17:01:28.999 [main] Log - 06-01-2022_05.01.28_Login.png
-[INFO ] 2022-06-01 17:01:28.999 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-01 17:01:29.013 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-01 17:01:29.013 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 17:01:29.013 [main] Log - X
-[INFO ] 2022-06-01 17:07:18.529 [main] Log - X
-[INFO ] 2022-06-01 17:07:18.531 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-01 17:07:18.532 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 17:07:19.087 [main] Log - RowCount4
-[INFO ] 2022-06-01 17:07:19.484 [main] Log - Just Clicked on Sign Button
-[INFO ] 2022-06-01 17:07:24.687 [main] Log - Successfully Logged in
-[INFO ] 2022-06-01 17:07:25.051 [main] Log - 06-01-2022_05.07.25_Login.png
-[INFO ] 2022-06-01 17:07:25.051 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-01 17:07:25.067 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-01 17:07:25.067 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 17:07:25.068 [main] Log - X
-[INFO ] 2022-06-01 17:09:43.940 [main] Log - X
-[INFO ] 2022-06-01 17:09:43.943 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-01 17:09:43.943 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 17:09:44.571 [main] Log - RowCount4
-[INFO ] 2022-06-01 17:09:44.998 [main] Log - Just Clicked on Sign Button
-[INFO ] 2022-06-01 17:09:50.355 [main] Log - 06-01-2022_05.09.50_Login.png
-[INFO ] 2022-06-01 17:09:50.355 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-01 17:09:50.373 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-01 17:09:50.373 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 17:09:50.374 [main] Log - X
-[INFO ] 2022-06-01 17:10:38.025 [main] Log - X
-[INFO ] 2022-06-01 17:10:38.028 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-01 17:10:38.028 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 17:10:38.644 [main] Log - RowCount4
-[INFO ] 2022-06-01 17:10:39.055 [main] Log - Just Clicked on Sign Button
-[INFO ] 2022-06-01 17:10:44.420 [main] Log - 06-01-2022_05.10.44_Login.png
-[INFO ] 2022-06-01 17:10:44.420 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-01 17:10:44.441 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-01 17:10:44.441 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-01 17:10:44.441 [main] Log - X
-[INFO ] 2022-06-10 19:07:26.221 [main] Log - X
-[INFO ] 2022-06-10 19:07:26.228 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-10 19:07:26.229 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-10 19:07:27.272 [main] Log - RowCount4
-[INFO ] 2022-06-10 19:07:27.833 [main] Log - Just Clicked on Sign Button
-[INFO ] 2022-06-10 19:47:00.731 [main] Log - X
-[INFO ] 2022-06-10 19:47:00.732 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-10 19:47:00.732 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-10 19:47:00.900 [main] Log - 06-10-2022_07.47.00_Login.png
-[INFO ] 2022-06-10 19:47:00.901 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-10 19:47:00.921 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-10 19:47:00.921 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-10 19:47:00.922 [main] Log - X
-[INFO ] 2022-06-14 13:44:10.066 [main] Log - X
-[INFO ] 2022-06-14 13:44:10.072 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-14 13:44:10.072 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-14 13:44:10.395 [main] Log - 06-14-2022_01.44.10_Login.png
-[INFO ] 2022-06-14 13:44:10.395 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-14 13:44:10.412 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-14 13:44:10.412 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-14 13:44:10.413 [main] Log - X
-[INFO ] 2022-06-14 13:52:04.304 [main] Log - X
-[INFO ] 2022-06-14 13:52:04.308 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-14 13:52:04.308 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-14 13:52:04.639 [main] Log - 06-14-2022_01.52.04_Login.png
-[INFO ] 2022-06-14 13:52:04.639 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-14 13:52:04.657 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-14 13:52:04.657 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-14 13:52:04.657 [main] Log - X
-[INFO ] 2022-06-14 13:58:07.170 [main] Log - X
-[INFO ] 2022-06-14 13:58:07.180 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-14 13:58:07.180 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-14 13:58:07.495 [main] Log - 06-14-2022_01.58.07_Login.png
-[INFO ] 2022-06-14 13:58:07.495 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-14 13:58:07.515 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-14 13:58:07.515 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-14 13:58:07.515 [main] Log - X
-[INFO ] 2022-06-14 14:08:28.292 [main] Log - X
-[INFO ] 2022-06-14 14:08:28.298 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-14 14:08:28.298 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-14 14:08:29.255 [main] Log - RowCount4
-[INFO ] 2022-06-14 14:08:29.787 [main] Log - Just Clicked on Sign Button
-[INFO ] 2022-06-14 14:08:35.364 [main] Log - 06-14-2022_02.08.35_Login.png
-[INFO ] 2022-06-14 14:08:35.364 [main] Log - Test Failed atLogin
-[INFO ] 2022-06-14 14:08:35.387 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
-[INFO ] 2022-06-14 14:08:35.387 [main] Log - ****************************************************************************************
-[INFO ] 2022-06-14 14:08:35.387 [main] Log - X
+
+
+[INFO ] 2022-06-15 09:49:06.308 [main] Log - X
+[INFO ] 2022-06-15 09:49:06.314 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2022-06-15 09:49:06.314 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 09:49:07.200 [main] Log - RowCount4
+[INFO ] 2022-06-15 09:49:07.735 [main] Log - Just Clicked on Sign Button
+[INFO ] 2022-06-15 09:49:13.159 [main] Log - 06-15-2022_09.49.13_Login.png
+[INFO ] 2022-06-15 09:49:13.159 [main] Log - Test Failed atLogin
+[INFO ] 2022-06-15 09:49:13.182 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2022-06-15 09:49:13.182 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 09:49:13.182 [main] Log - X
+[INFO ] 2022-06-15 09:57:28.139 [main] Log - X
+[INFO ] 2022-06-15 09:57:28.146 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2022-06-15 09:57:28.147 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 09:57:29.237 [main] Log - RowCount4
+[INFO ] 2022-06-15 09:57:29.751 [main] Log - Just Clicked on Sign Button
+[INFO ] 2022-06-15 09:57:36.328 [main] Log - 06-15-2022_09.57.36_Login.png
+[INFO ] 2022-06-15 09:57:36.328 [main] Log - Test Failed atLogin
+[INFO ] 2022-06-15 09:57:36.454 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2022-06-15 09:57:36.455 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 09:57:36.456 [main] Log - X
+[INFO ] 2022-06-15 10:26:19.909 [main] Log - X
+[INFO ] 2022-06-15 10:26:19.915 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2022-06-15 10:26:19.916 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:26:25.696 [main] Log - RowCount4
+[INFO ] 2022-06-15 10:26:26.180 [main] Log - Just Clicked on Sign Button
+[ERROR] 2022-06-15 10:26:26.357 [main] Log - TestData Class | Method getCellData | Exception descCannot invoke "org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue()" because "Utility.TestData.Cell" is null
+[INFO ] 2022-06-15 10:26:26.774 [main] Log - 06-15-2022_10.26.26_Login.png
+[INFO ] 2022-06-15 10:26:26.775 [main] Log - Test Failed atLogin
+[INFO ] 2022-06-15 10:26:27.176 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2022-06-15 10:26:27.177 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:26:27.177 [main] Log - X
+[INFO ] 2022-06-15 10:31:47.656 [main] Log - X
+[INFO ] 2022-06-15 10:31:47.665 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2022-06-15 10:31:47.665 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:31:48.399 [main] Log - RowCount4
+[INFO ] 2022-06-15 10:31:48.882 [main] Log - Just Clicked on Sign Button
+[ERROR] 2022-06-15 10:31:49.060 [main] Log - TestData Class | Method getCellData | Exception descCannot invoke "org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue()" because "Utility.TestData.Cell" is null
+[INFO ] 2022-06-15 10:31:49.400 [main] Log - 06-15-2022_10.31.49_Login.png
+[INFO ] 2022-06-15 10:31:49.400 [main] Log - Test Failed atLogin
+[INFO ] 2022-06-15 10:31:59.514 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2022-06-15 10:31:59.514 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:31:59.515 [main] Log - X
+[INFO ] 2022-06-15 10:37:09.943 [main] Log - X
+[INFO ] 2022-06-15 10:37:09.949 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2022-06-15 10:37:09.949 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:37:10.665 [main] Log - RowCount4
+[INFO ] 2022-06-15 10:37:11.069 [main] Log - Just Clicked on Sign Button
+[ERROR] 2022-06-15 10:37:11.208 [main] Log - TestData Class | Method getCellData | Exception descCannot invoke "org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue()" because "Utility.TestData.Cell" is null
+[INFO ] 2022-06-15 10:37:11.527 [main] Log - 06-15-2022_10.37.11_Login.png
+[INFO ] 2022-06-15 10:37:11.527 [main] Log - Test Failed atLogin
+[INFO ] 2022-06-15 10:37:21.550 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2022-06-15 10:37:21.551 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:37:21.551 [main] Log - X
+[INFO ] 2022-06-15 10:42:57.822 [main] Log - X
+[INFO ] 2022-06-15 10:42:57.828 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2022-06-15 10:42:57.829 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:42:58.462 [main] Log - RowCount4
+[INFO ] 2022-06-15 10:42:58.893 [main] Log - Just Clicked on Sign Button
+[ERROR] 2022-06-15 10:42:59.015 [main] Log - TestData Class | Method getCellData | Exception descCannot invoke "org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue()" because "Utility.TestData.Cell" is null
+[INFO ] 2022-06-15 10:42:59.331 [main] Log - 06-15-2022_10.42.59_Login.png
+[INFO ] 2022-06-15 10:42:59.331 [main] Log - Test Failed atLogin
+[INFO ] 2022-06-15 10:43:09.364 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2022-06-15 10:43:09.365 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:43:09.365 [main] Log - X
+[INFO ] 2022-06-15 10:50:10.508 [main] Log - X
+[INFO ] 2022-06-15 10:50:10.513 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2022-06-15 10:50:10.513 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:50:11.249 [main] Log - RowCount4
+[INFO ] 2022-06-15 10:50:11.712 [main] Log - Just Clicked on Sign Button
+[ERROR] 2022-06-15 10:50:11.868 [main] Log - TestData Class | Method getCellData | Exception descCannot invoke "org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue()" because "Utility.TestData.Cell" is null
+[INFO ] 2022-06-15 10:50:12.163 [main] Log - 06-15-2022_10.50.12_Login.png
+[INFO ] 2022-06-15 10:50:12.163 [main] Log - Test Failed atLogin
+[INFO ] 2022-06-15 10:50:22.451 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2022-06-15 10:50:22.452 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:50:22.452 [main] Log - X
+[INFO ] 2022-06-15 10:55:06.148 [main] Log - X
+[INFO ] 2022-06-15 10:55:06.153 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2022-06-15 10:55:06.154 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:55:06.983 [main] Log - RowCount4
+[INFO ] 2022-06-15 10:55:07.340 [main] Log - Just Clicked on Sign Button
+[INFO ] 2022-06-15 10:55:07.620 [main] Log - Just Clicked on Sign Button
+[INFO ] 2022-06-15 10:55:08.872 [main] Log - 06-15-2022_10.55.08_Login.png
+[INFO ] 2022-06-15 10:55:08.872 [main] Log - Test Failed atLogin
+[INFO ] 2022-06-15 10:55:18.901 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2022-06-15 10:55:18.901 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:55:18.901 [main] Log - X
+[INFO ] 2022-06-15 10:57:12.936 [main] Log - X
+[INFO ] 2022-06-15 10:57:12.942 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2022-06-15 10:57:12.942 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:57:13.691 [main] Log - RowCount4
+[INFO ] 2022-06-15 10:57:14.082 [main] Log - Just Clicked on Sign Button
+[ERROR] 2022-06-15 10:57:14.219 [main] Log - TestData Class | Method getCellData | Exception descCannot invoke "org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue()" because "Utility.TestData.Cell" is null
+[INFO ] 2022-06-15 10:57:14.500 [main] Log - 06-15-2022_10.57.14_Login.png
+[INFO ] 2022-06-15 10:57:14.500 [main] Log - Test Failed atLogin
+[INFO ] 2022-06-15 10:57:24.514 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2022-06-15 10:57:24.515 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:57:24.515 [main] Log - X
+[INFO ] 2022-06-15 10:58:25.688 [main] Log - X
+[INFO ] 2022-06-15 10:58:25.695 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2022-06-15 10:58:25.695 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:58:26.415 [main] Log - RowCount4
+[INFO ] 2022-06-15 10:58:26.819 [main] Log - Just Clicked on Sign Button
+[INFO ] 2022-06-15 10:58:27.171 [main] Log - Just Clicked on Sign Button
+[ERROR] 2022-06-15 10:58:27.298 [main] Log - TestData Class | Method getCellData | Exception descCannot invoke "org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue()" because "Utility.TestData.Cell" is null
+[INFO ] 2022-06-15 10:58:27.732 [main] Log - 06-15-2022_10.58.27_Login.png
+[INFO ] 2022-06-15 10:58:27.732 [main] Log - Test Failed atLogin
+[INFO ] 2022-06-15 10:58:37.794 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2022-06-15 10:58:37.794 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:58:37.794 [main] Log - X
+[INFO ] 2022-06-15 10:59:03.097 [main] Log - X
+[INFO ] 2022-06-15 10:59:03.104 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2022-06-15 10:59:03.104 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:59:03.853 [main] Log - RowCount4
+[INFO ] 2022-06-15 10:59:04.270 [main] Log - Just Clicked on Sign Button
+[INFO ] 2022-06-15 10:59:04.719 [main] Log - Just Clicked on Sign Button
+[ERROR] 2022-06-15 10:59:04.842 [main] Log - TestData Class | Method getCellData | Exception descCannot invoke "org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue()" because "Utility.TestData.Cell" is null
+[INFO ] 2022-06-15 10:59:05.517 [main] Log - 06-15-2022_10.59.05_Login.png
+[INFO ] 2022-06-15 10:59:05.518 [main] Log - Test Failed atLogin
+[INFO ] 2022-06-15 10:59:15.867 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2022-06-15 10:59:15.867 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 10:59:15.867 [main] Log - X
+[INFO ] 2022-06-15 11:01:35.727 [main] Log - X
+[INFO ] 2022-06-15 11:01:35.731 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2022-06-15 11:01:35.731 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 11:01:36.363 [main] Log - RowCount4
+[INFO ] 2022-06-15 11:01:36.698 [main] Log - Just Clicked on Sign Button
+[ERROR] 2022-06-15 11:01:36.779 [main] Log - TestData Class | Method getCellData | Exception descCannot invoke "org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue()" because "Utility.TestData.Cell" is null
+[INFO ] 2022-06-15 11:01:37.094 [main] Log - 06-15-2022_11.01.37_Login.png
+[INFO ] 2022-06-15 11:01:37.094 [main] Log - Test Failed atLogin
+[INFO ] 2022-06-15 11:01:47.125 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2022-06-15 11:01:47.125 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 11:01:47.125 [main] Log - X
+[INFO ] 2022-06-15 11:02:55.979 [main] Log - X
+[INFO ] 2022-06-15 11:02:55.985 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2022-06-15 11:02:55.985 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 11:02:56.714 [main] Log - RowCount4
+[ERROR] 2022-06-15 11:02:57.235 [main] Log - TestData Class | Method getCellData | Exception descCannot invoke "org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue()" because "Utility.TestData.Cell" is null
+[INFO ] 2022-06-15 11:02:57.530 [main] Log - 06-15-2022_11.02.57_Login.png
+[INFO ] 2022-06-15 11:02:57.530 [main] Log - Test Failed atLogin
+[INFO ] 2022-06-15 11:03:07.577 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2022-06-15 11:03:07.577 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 11:03:07.578 [main] Log - X
+[INFO ] 2022-06-15 11:04:41.165 [main] Log - X
+[INFO ] 2022-06-15 11:04:41.171 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2022-06-15 11:04:41.172 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 11:04:41.903 [main] Log - RowCount4
+[INFO ] 2022-06-15 11:04:42.278 [main] Log - Just Clicked on Sign Button
+[INFO ] 2022-06-15 11:04:52.329 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2022-06-15 11:04:52.329 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 11:04:52.330 [main] Log - X
+[INFO ] 2022-06-15 11:06:40.658 [main] Log - X
+[INFO ] 2022-06-15 11:06:40.666 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2022-06-15 11:06:40.666 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 11:06:41.450 [main] Log - RowCount4
+[INFO ] 2022-06-15 11:06:41.880 [main] Log - Just Clicked on Sign Button
+[INFO ] 2022-06-15 11:06:43.138 [main] Log - Successfully Logged in
+[INFO ] 2022-06-15 11:06:53.469 [main] Log - XXXXXXXXXXXXXXXXXXXXXXX             END  XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2022-06-15 11:06:53.469 [main] Log - ****************************************************************************************
+[INFO ] 2022-06-15 11:06:53.469 [main] Log - X

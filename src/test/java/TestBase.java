@@ -62,7 +62,7 @@ String projectPath = System.getProperty("user.dir");
   
 }
 
-@AfterClass(alwaysRun = true)
+@AfterClass(alwaysRun = false)
 public void afterClass() {
         
 	if(!driver.findElements(By.id("bot1-Msg2")).isEmpty()){
@@ -79,15 +79,7 @@ public void afterClass() {
   }
 
 
-public void asserting(String str1, String str2){
-	if(!driver.findElements(By.id("bot1-Msg1")).isEmpty()){
-		WebElement element= driver.findElement(By.className("pText"));
-	    String str = element.getText();
-	    Assert.assertTrue(str1.equals(str) || str2.equals(str));
-	    driver.findElement(By.id("bot1-Msg1")).click();
-	    Log.info(str1+"/"+str2);
-    	}
-}
+
 
 
 }
