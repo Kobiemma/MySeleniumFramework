@@ -6,10 +6,10 @@
        
         <classes>
             <class name="TestLogin"  />
-             <class name="ipConfiguration" />
+             
 		<!--<class name="TestUsers" /> 
             <class name="TellerCredentials" />	
-            
+            <class name="ipConfiguration" />
       		<class name="Payments" />
 			<class name="Transactions" />
 			<class name="TransactionLimit" />-->		

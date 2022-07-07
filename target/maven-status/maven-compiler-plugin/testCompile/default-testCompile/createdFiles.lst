@@ -1,9 +1,9 @@
+TellerCredentials.class
+Payments.class
+ipConfiguration.class
+Transactions.class
+TestBase.class
 Utility\ParallelExecution.class
 TestLogin.class
-Transactions.class
-TellerCredentials.class
-TestBase.class
 TestUsers.class
-ipConfiguration.class
 TransactionLimit.class
-Payments.class
