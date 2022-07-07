@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Command line test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jun 10 19:47:00 WAT 2022</td>
+<td>Started on:</td><td>Thu Jul 07 13:47:55 WAT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (234 ms)</td>
+<tr><td>Total time:</td><td>28 seconds (28981 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,25 +75,53 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestLogin.Login()'><b>Login</b><br>Test class: TestLogin</td>
-<td><div><pre>java.lang.NoClassDefFoundError: org/apache/poi/util/POILogFactory
-	at org.apache.poi.ooxml.POIXMLDocumentPart.&lt;clinit&gt;(POIXMLDocumentPart.java:54)
-	at Utility.TestData.OpenExcelFile(TestData.java:62)
-	at Utility.TestData.getRowCount(TestData.java:44)
-	at TestLogin.Login(TestLogin.java:31)
+<td title='TestUsers.createSuccesful()'><b>createSuccesful</b><br>Test class: TestUsers</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;MuiButtonBase-root MuiButton-root MuiButton-text jss30 jss31&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; margintop=&quot;30px&quot; width=&quot;30%&quot; height=&quot;40&quot;&gt;...&lt;/button&gt; is not clickable at point (420, 583). Other element would receive the click: &lt;html lang=&quot;en&quot;&gt;...&lt;/html&gt;
+  (Session info: chrome=103.0.5060.53)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;OCT-JULIEN&apos;, ip: &apos;10.0.2.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad3b1323bc296f2ad246b83cd97b3f40, clickElement {id=18b37fba-1069-4213-8f9a-8c0c836e53d1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:49289}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49289/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ad3b1323bc296f2ad246b83cd97b3f40)] -&gt; xpath: //button[contains(@class,&apos;MuiButton-root MuiButton-text jss&apos;) and @type=&apos;submit&apos;]]
+Session ID: ad3b1323bc296f2ad246b83cd97b3f40
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at TestUsers.createUsers(TestUsers.java:54)
+	at TestUsers.createSuccesful(TestUsers.java:65)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-Caused by: java.lang.ClassNotFoundException: org.apache.poi.util.POILogFactory
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 42 more
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace275754769", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace275754769'><pre>java.lang.NoClassDefFoundError: org/apache/poi/util/POILogFactory
-	at org.apache.poi.ooxml.POIXMLDocumentPart.&lt;clinit&gt;(POIXMLDocumentPart.java:54)
-	at Utility.TestData.OpenExcelFile(TestData.java:62)
-	at Utility.TestData.getRowCount(TestData.java:44)
-	at TestLogin.Login(TestLogin.java:31)
+... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace865744496", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace865744496'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;MuiButtonBase-root MuiButton-root MuiButton-text jss30 jss31&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; margintop=&quot;30px&quot; width=&quot;30%&quot; height=&quot;40&quot;&gt;...&lt;/button&gt; is not clickable at point (420, 583). Other element would receive the click: &lt;html lang=&quot;en&quot;&gt;...&lt;/html&gt;
+  (Session info: chrome=103.0.5060.53)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;OCT-JULIEN&apos;, ip: &apos;10.0.2.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad3b1323bc296f2ad246b83cd97b3f40, clickElement {id=18b37fba-1069-4213-8f9a-8c0c836e53d1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:49289}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49289/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ad3b1323bc296f2ad246b83cd97b3f40)] -&gt; xpath: //button[contains(@class,&apos;MuiButton-root MuiButton-text jss&apos;) and @type=&apos;submit&apos;]]
+Session ID: ad3b1323bc296f2ad246b83cd97b3f40
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at TestUsers.createUsers(TestUsers.java:54)
+	at TestUsers.createSuccesful(TestUsers.java:65)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -132,15 +160,27 @@ Caused by: java.lang.ClassNotFoundException: org.apache.poi.util.POILogFactory
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: java.lang.ClassNotFoundException: org.apache.poi.util.POILogFactory
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 42 more
 </pre></div></td>
-<td>0</td>
-<td>TestLogin@2781e022</td></tr>
+<td>8</td>
+<td>TestUsers@305fd85d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestLogin.ValidEmailAndPassword()'><b>ValidEmailAndPassword</b><br>Test class: TestLogin</td>
+<td></td>
+<td>3</td>
+<td>TestLogin@1877ab81</td></tr>
+<tr>
+<td title='TestLogin.NegativeTests()'><b>NegativeTests</b><br>Test class: TestLogin</td>
+<td></td>
+<td>16</td>
+<td>TestLogin@1877ab81</td></tr>
 </table><p>
 </body>
 </html>

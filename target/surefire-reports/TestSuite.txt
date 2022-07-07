@@ -1,17 +1,30 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 31.395 sec <<< FAILURE!
-Login(TestLogin)  Time elapsed: 0.069 sec  <<< FAILURE!
-java.lang.NoClassDefFoundError: org/apache/poi/util/POILogFactory
-	at org.apache.poi.ooxml.POIXMLDocumentPart.<clinit>(POIXMLDocumentPart.java:54)
-	at Utility.TestData.OpenExcelFile(TestData.java:62)
-	at Utility.TestData.getRowCount(TestData.java:44)
-	at TestLogin.Login(TestLogin.java:31)
-Caused by: java.lang.ClassNotFoundException: org.apache.poi.util.POILogFactory
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 42 more
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 36.449 sec <<< FAILURE!
+createSuccesful(TestUsers)  Time elapsed: 8.091 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-text jss30 jss31" tabindex="0" type="submit" margintop="30px" width="30%" height="40">...</button> is not clickable at point (420, 583). Other element would receive the click: <html lang="en">...</html>
+  (Session info: chrome=103.0.5060.53)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'OCT-JULIEN', ip: '10.0.2.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad3b1323bc296f2ad246b83cd97b3f40, clickElement {id=18b37fba-1069-4213-8f9a-8c0c836e53d1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:49289}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49289/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ad3b1323bc296f2ad246b83cd97b3f40)] -> xpath: //button[contains(@class,'MuiButton-root MuiButton-text jss') and @type='submit']]
+Session ID: ad3b1323bc296f2ad246b83cd97b3f40
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at TestUsers.createUsers(TestUsers.java:54)
+	at TestUsers.createSuccesful(TestUsers.java:65)
 

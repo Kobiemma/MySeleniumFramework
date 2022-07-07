@@ -1,3 +1,9 @@
-TestBase.class
+Utility\ParallelExecution.class
 TestLogin.class
-ManageMerchants.class
+Transactions.class
+TellerCredentials.class
+TestBase.class
+TestUsers.class
+ipConfiguration.class
+TransactionLimit.class
+Payments.class

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="TestSuite" time="0.069" errors="0" skipped="0">
+<testsuite tests="3" failures="1" name="TestSuite" time="28.642" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
@@ -63,101 +63,157 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="TestLogin" name="Login" time="0.069">
-    <failure message="org/apache/poi/util/POILogFactory" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/apache/poi/util/POILogFactory
-	at org.apache.poi.ooxml.POIXMLDocumentPart.&lt;clinit&gt;(POIXMLDocumentPart.java:54)
-	at Utility.TestData.OpenExcelFile(TestData.java:62)
-	at Utility.TestData.getRowCount(TestData.java:44)
-	at TestLogin.Login(TestLogin.java:31)
-Caused by: java.lang.ClassNotFoundException: org.apache.poi.util.POILogFactory
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 42 more
+  <testcase classname="TestLogin" name="NegativeTests" time="16.941"/>
+  <testcase classname="TestLogin" name="ValidEmailAndPassword" time="3.61"/>
+  <testcase classname="TestUsers" name="createSuccesful" time="8.091">
+    <failure message="element click intercepted: Element &lt;button class=&quot;MuiButtonBase-root MuiButton-root MuiButton-text jss30 jss31&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; margintop=&quot;30px&quot; width=&quot;30%&quot; height=&quot;40&quot;&gt;...&lt;/button&gt; is not clickable at point (420, 583). Other element would receive the click: &lt;html lang=&quot;en&quot;&gt;...&lt;/html&gt;
+  (Session info: chrome=103.0.5060.53)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;OCT-JULIEN&apos;, ip: &apos;10.0.2.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad3b1323bc296f2ad246b83cd97b3f40, clickElement {id=18b37fba-1069-4213-8f9a-8c0c836e53d1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:49289}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49289/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ad3b1323bc296f2ad246b83cd97b3f40)] -&gt; xpath: //button[contains(@class,&apos;MuiButton-root MuiButton-text jss&apos;) and @type=&apos;submit&apos;]]
+Session ID: ad3b1323bc296f2ad246b83cd97b3f40" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;MuiButtonBase-root MuiButton-root MuiButton-text jss30 jss31&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; margintop=&quot;30px&quot; width=&quot;30%&quot; height=&quot;40&quot;&gt;...&lt;/button&gt; is not clickable at point (420, 583). Other element would receive the click: &lt;html lang=&quot;en&quot;&gt;...&lt;/html&gt;
+  (Session info: chrome=103.0.5060.53)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;OCT-JULIEN&apos;, ip: &apos;10.0.2.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad3b1323bc296f2ad246b83cd97b3f40, clickElement {id=18b37fba-1069-4213-8f9a-8c0c836e53d1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:49289}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49289/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ad3b1323bc296f2ad246b83cd97b3f40)] -&gt; xpath: //button[contains(@class,&apos;MuiButton-root MuiButton-text jss&apos;) and @type=&apos;submit&apos;]]
+Session ID: ad3b1323bc296f2ad246b83cd97b3f40
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at TestUsers.createUsers(TestUsers.java:54)
+	at TestUsers.createSuccesful(TestUsers.java:65)
 </failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@2d209079
-C:\Users\delphine.muoka\eclipse-workspace\SeleniumFramework1
-[DEBUG] 2022-06-10 19:46:31.590 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
-[DEBUG] 2022-06-10 19:46:31.610 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-[DEBUG] 2022-06-10 19:46:31.610 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-[DEBUG] 2022-06-10 19:46:31.623 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1be2019a
-[DEBUG] 2022-06-10 19:46:31.657 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
-[DEBUG] 2022-06-10 19:46:31.657 [main] PlatformDependent0 - Java version: 8
-[DEBUG] 2022-06-10 19:46:31.660 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-[DEBUG] 2022-06-10 19:46:31.661 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-[DEBUG] 2022-06-10 19:46:31.662 [main] PlatformDependent0 - java.nio.Buffer.address: available
-[DEBUG] 2022-06-10 19:46:31.663 [main] PlatformDependent0 - direct buffer constructor: available
-[DEBUG] 2022-06-10 19:46:31.665 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
-[DEBUG] 2022-06-10 19:46:31.665 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
-[DEBUG] 2022-06-10 19:46:31.665 [main] PlatformDependent0 - java.nio.DirectByteBuffer.&lt;init&gt;(long, int): available
-[DEBUG] 2022-06-10 19:46:31.666 [main] PlatformDependent - sun.misc.Unsafe: available
-[DEBUG] 2022-06-10 19:46:31.667 [main] PlatformDependent - -Dio.netty.tmpdir: C:\WINDOWS\TEMP (java.io.tmpdir)
-[DEBUG] 2022-06-10 19:46:31.667 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-[DEBUG] 2022-06-10 19:46:31.668 [main] PlatformDependent - Platform: Windows
-[DEBUG] 2022-06-10 19:46:31.669 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 3780640768 bytes
-[DEBUG] 2022-06-10 19:46:31.669 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-[DEBUG] 2022-06-10 19:46:31.670 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
-[DEBUG] 2022-06-10 19:46:31.671 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
-[DEBUG] 2022-06-10 19:46:31.686 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-[DEBUG] 2022-06-10 19:46:31.725 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-[DEBUG] 2022-06-10 19:46:31.725 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-[DEBUG] 2022-06-10 19:46:32.342 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
-[DEBUG] 2022-06-10 19:46:32.342 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
-[DEBUG] 2022-06-10 19:46:32.389 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
-[DEBUG] 2022-06-10 19:46:32.405 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
-[DEBUG] 2022-06-10 19:46:32.405 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-[DEBUG] 2022-06-10 19:46:32.467 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
-[DEBUG] 2022-06-10 19:46:32.467 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
-[DEBUG] 2022-06-10 19:46:32.467 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-[DEBUG] 2022-06-10 19:46:32.467 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
-[DEBUG] 2022-06-10 19:46:32.467 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
-[DEBUG] 2022-06-10 19:46:32.467 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-[DEBUG] 2022-06-10 19:46:32.467 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-[DEBUG] 2022-06-10 19:46:32.467 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-[DEBUG] 2022-06-10 19:46:32.468 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-[DEBUG] 2022-06-10 19:46:32.468 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-[DEBUG] 2022-06-10 19:46:32.468 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
-[DEBUG] 2022-06-10 19:46:32.468 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-[DEBUG] 2022-06-10 19:46:32.527 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
-[DEBUG] 2022-06-10 19:46:32.527 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-[DEBUG] 2022-06-10 19:46:32.527 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-[DEBUG] 2022-06-10 19:46:33.408 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 29884 (auto-detected)
-[DEBUG] 2022-06-10 19:46:33.410 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
-[DEBUG] 2022-06-10 19:46:33.410 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
-[DEBUG] 2022-06-10 19:46:33.683 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-[DEBUG] 2022-06-10 19:46:33.684 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-[DEBUG] 2022-06-10 19:46:33.939 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 00:05:9a:ff:fe:3c:7a:00 (auto-detected)
-[DEBUG] 2022-06-10 19:46:34.004 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-[DEBUG] 2022-06-10 19:46:34.004 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-[DEBUG] 2022-06-10 19:46:34.005 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@29374dc
-[DEBUG] 2022-06-10 19:46:34.034 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-[DEBUG] 2022-06-10 19:46:34.034 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
-[DEBUG] 2022-06-10 19:46:34.034 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
-[DEBUG] 2022-06-10 19:46:34.034 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
-[DEBUG] 2022-06-10 19:46:34.034 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
-[DEBUG] 2022-06-10 19:46:35.908 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-[DEBUG] 2022-06-10 19:46:36.062 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x3d1c7c522c22b36e
-[INFO ] 2022-06-10 19:47:00.731 [main] Log - X
-[INFO ] 2022-06-10 19:47:00.732 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-[INFO ] 2022-06-10 19:47:00.732 [main] Log - ****************************************************************************************
+    <system-out>[INFO ] 2022-07-07 13:48:16.040 [main] Log - 07-07-2022_01.48.16_ValidEmailAndPassword.png
+[INFO ] 2022-07-07 13:48:16.041 [main] Log - Test Failed atValidEmailAndPassword
+[INFO ] 2022-07-07 13:48:16.044 [main] Log - X
+[INFO ] 2022-07-07 13:48:16.044 [main] Log - $$$$$$$$$$$$$$$$$$$$$                 Create Users       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2022-07-07 13:48:16.044 [main] Log - ****************************************************************************************
+[DEBUG] 2022-07-07 13:48:16.484 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2022-07-07 13:48:16.484 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2022-07-07 13:48:16.485 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2022-07-07 13:48:16.486 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+[DEBUG] 2022-07-07 13:48:16.486 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet4.xml.rels
+[DEBUG] 2022-07-07 13:48:16.487 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2022-07-07 13:48:16.497 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:16.497 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:16.497 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:16.497 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:16.649 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2022-07-07 13:48:16.650 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2022-07-07 13:48:16.651 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2022-07-07 13:48:16.651 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+[DEBUG] 2022-07-07 13:48:16.652 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet4.xml.rels
+[DEBUG] 2022-07-07 13:48:16.652 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2022-07-07 13:48:16.663 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:16.663 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:16.663 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:16.663 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:17.011 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2022-07-07 13:48:17.012 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2022-07-07 13:48:17.012 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2022-07-07 13:48:17.013 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+[DEBUG] 2022-07-07 13:48:17.014 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet4.xml.rels
+[DEBUG] 2022-07-07 13:48:17.015 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2022-07-07 13:48:17.024 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:17.024 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:17.024 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:17.025 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:17.201 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2022-07-07 13:48:17.203 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2022-07-07 13:48:17.204 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2022-07-07 13:48:17.206 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+[DEBUG] 2022-07-07 13:48:17.207 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet4.xml.rels
+[DEBUG] 2022-07-07 13:48:17.208 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2022-07-07 13:48:17.217 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:17.217 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:17.217 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:17.218 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:17.394 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2022-07-07 13:48:17.395 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2022-07-07 13:48:17.395 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2022-07-07 13:48:17.395 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+[DEBUG] 2022-07-07 13:48:17.396 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet4.xml.rels
+[DEBUG] 2022-07-07 13:48:17.396 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2022-07-07 13:48:17.401 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:17.402 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:17.402 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:17.402 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:17.583 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2022-07-07 13:48:17.584 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2022-07-07 13:48:17.584 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2022-07-07 13:48:17.585 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+[DEBUG] 2022-07-07 13:48:17.585 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet4.xml.rels
+[DEBUG] 2022-07-07 13:48:17.586 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2022-07-07 13:48:17.595 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:17.595 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:17.595 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:17.595 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:18.776 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2022-07-07 13:48:18.777 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2022-07-07 13:48:18.777 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2022-07-07 13:48:18.777 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+[DEBUG] 2022-07-07 13:48:18.778 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet4.xml.rels
+[DEBUG] 2022-07-07 13:48:18.779 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2022-07-07 13:48:18.785 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:18.786 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:18.786 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:18.786 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:19.992 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2022-07-07 13:48:19.992 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2022-07-07 13:48:19.993 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2022-07-07 13:48:19.993 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+[DEBUG] 2022-07-07 13:48:19.993 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet4.xml.rels
+[DEBUG] 2022-07-07 13:48:19.994 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2022-07-07 13:48:20.000 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:20.000 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:20.000 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:20.000 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:21.174 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2022-07-07 13:48:21.175 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2022-07-07 13:48:21.176 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2022-07-07 13:48:21.176 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+[DEBUG] 2022-07-07 13:48:21.177 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet4.xml.rels
+[DEBUG] 2022-07-07 13:48:21.177 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2022-07-07 13:48:21.185 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:21.185 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:21.185 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:21.185 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:22.294 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2022-07-07 13:48:22.294 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2022-07-07 13:48:22.295 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2022-07-07 13:48:22.295 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+[DEBUG] 2022-07-07 13:48:22.295 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet4.xml.rels
+[DEBUG] 2022-07-07 13:48:22.296 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2022-07-07 13:48:22.300 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:22.300 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:22.300 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:22.300 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:22.466 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2022-07-07 13:48:22.466 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2022-07-07 13:48:22.467 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2022-07-07 13:48:22.467 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+[DEBUG] 2022-07-07 13:48:22.468 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet4.xml.rels
+[DEBUG] 2022-07-07 13:48:22.468 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2022-07-07 13:48:22.477 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:22.478 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:22.478 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-07-07 13:48:22.478 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
 </system-out>
-    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 50354
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1654886794.864][WARNING]: This version of ChromeDriver has not been tested with Chrome version 102.
-Jun 10, 2022 7:46:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Jun 10, 2022 7:46:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: a no-op implementation
-Jun 10, 2022 7:46:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Unable to find CDP implementation matching 102.
-Jun 10, 2022 7:46:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
-</system-err>
   </testcase>
 </testsuite>

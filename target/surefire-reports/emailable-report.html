@@ -9,22 +9,33 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Command line suite</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">234</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">28,981</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestLogin</td><td><a href="#m0">Login</a></td><td rowspan="1">1654886820728</td><td rowspan="1">62</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestUsers</td><td><a href="#m0">createSuccesful</a></td><td rowspan="1">1657198096044</td><td rowspan="1">8084</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">TestLogin</td><td><a href="#m1">NegativeTests</a></td><td rowspan="1">1657198075248</td><td rowspan="1">16937</td></tr><tr class="passedeven"><td><a href="#m2">ValidEmailAndPassword</a></td><td rowspan="1">1657198092321</td><td rowspan="1">3610</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">TestLogin#Login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: org/apache/poi/util/POILogFactory
-	at org.apache.poi.ooxml.POIXMLDocumentPart.&lt;clinit&gt;(POIXMLDocumentPart.java:54)
-	at Utility.TestData.OpenExcelFile(TestData.java:62)
-	at Utility.TestData.getRowCount(TestData.java:44)
-	at TestLogin.Login(TestLogin.java:31)
+<h2>Command line test</h2><h3 id="m0">TestUsers#createSuccesful</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;MuiButtonBase-root MuiButton-root MuiButton-text jss30 jss31&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; margintop=&quot;30px&quot; width=&quot;30%&quot; height=&quot;40&quot;&gt;...&lt;/button&gt; is not clickable at point (420, 583). Other element would receive the click: &lt;html lang=&quot;en&quot;&gt;...&lt;/html&gt;
+  (Session info: chrome=103.0.5060.53)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;OCT-JULIEN&apos;, ip: &apos;10.0.2.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad3b1323bc296f2ad246b83cd97b3f40, clickElement {id=18b37fba-1069-4213-8f9a-8c0c836e53d1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:49289}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49289/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ad3b1323bc296f2ad246b83cd97b3f40)] -&gt; xpath: //button[contains(@class,&apos;MuiButton-root MuiButton-text jss&apos;) and @type=&apos;submit&apos;]]
+Session ID: ad3b1323bc296f2ad246b83cd97b3f40
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at TestUsers.createUsers(TestUsers.java:54)
+	at TestUsers.createSuccesful(TestUsers.java:65)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-Caused by: java.lang.ClassNotFoundException: org.apache.poi.util.POILogFactory
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 42 more
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 41 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestLogin#NegativeTests</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestLogin#ValidEmailAndPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
