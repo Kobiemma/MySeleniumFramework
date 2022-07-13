@@ -9,76 +9,11 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Parallel Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">36,631</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Parallel Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">20,615</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Parallel Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Payments</td><td><a href="#m0">makePayment</a></td><td rowspan="1">1657038995421</td><td rowspan="1">1066</td></tr><tr class="failedodd"><td rowspan="1">TestUsers</td><td><a href="#m1">createSuccesful</a></td><td rowspan="1">1657038982631</td><td rowspan="1">8208</td></tr><tr class="failedeven"><td rowspan="1">Transactions</td><td><a href="#m2">viewTransactions</a></td><td rowspan="1">1657038996676</td><td rowspan="1">1058</td></tr><tr><th colspan="4">Parallel Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">TestLogin</td><td><a href="#m3">NegativeTests</a></td><td rowspan="1">1657038961318</td><td rowspan="1">17467</td></tr><tr class="passedeven"><td><a href="#m4">ValidEmailAndPassword</a></td><td rowspan="1">1657038979087</td><td rowspan="1">3340</td></tr><tr class="passedodd"><td rowspan="1">ipConfiguration</td><td><a href="#m5">CreateIPconfigSuccess</a></td><td rowspan="1">1657038991029</td><td rowspan="1">4207</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Parallel Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">TestLogin</td><td><a href="#m0">NegativeTests</a></td><td rowspan="1">1657714489709</td><td rowspan="1">17290</td></tr><tr class="passedeven"><td><a href="#m1">ValidEmailAndPassword</a></td><td rowspan="1">1657714507221</td><td rowspan="1">2890</td></tr></tbody>
 </table>
-<h2>Parallel Test</h2><h3 id="m0">Payments#makePayment</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;p class=&quot;sc-dVhcbM iOSPTj&quot;&gt;...&lt;/p&gt; is not clickable at point (78, 242). Other element would receive the click: &lt;div class=&quot;swal-overlay swal-overlay--show-modal&quot; tabindex=&quot;-1&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=103.0.5060.53)
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;OCT-JULIEN&apos;, ip: &apos;10.0.2.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [85c37b1503fd0816307fc4448865b6ad, clickElement {id=59c7feff-bd05-476e-a407-3994f0588fcc}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\DELPHI~1.MUO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61561}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61561/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (85c37b1503fd0816307fc4448865b6ad)] -&gt; xpath: //p[contains(text(),&apos;Payment&apos;)]]
-Session ID: 85c37b1503fd0816307fc4448865b6ad
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at Payments.makePayment(Payments.java:23)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">TestUsers#createSuccesful</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;MuiButtonBase-root MuiButton-root MuiButton-text jss30 jss31&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; margintop=&quot;30px&quot; width=&quot;30%&quot; height=&quot;40&quot;&gt;...&lt;/button&gt; is not clickable at point (502, 651). Other element would receive the click: &lt;main class=&quot;sc-bMvGRv iQMaXQ&quot;&gt;...&lt;/main&gt;
-  (Session info: chrome=103.0.5060.53)
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;OCT-JULIEN&apos;, ip: &apos;10.0.2.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [85c37b1503fd0816307fc4448865b6ad, clickElement {id=c63c7977-ef16-46b3-9599-513b32084599}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\DELPHI~1.MUO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61561}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61561/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (85c37b1503fd0816307fc4448865b6ad)] -&gt; xpath: //button[contains(@class,&apos;MuiButton-root MuiButton-text jss&apos;) and @type=&apos;submit&apos;]]
-Session ID: 85c37b1503fd0816307fc4448865b6ad
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at TestUsers.createUsers(TestUsers.java:54)
-	at TestUsers.createSuccesful(TestUsers.java:65)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Transactions#viewTransactions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;p class=&quot;sc-dVhcbM iOSPTj&quot;&gt;...&lt;/p&gt; is not clickable at point (87, 158). Other element would receive the click: &lt;div class=&quot;swal-overlay swal-overlay--show-modal&quot; tabindex=&quot;-1&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=103.0.5060.53)
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;OCT-JULIEN&apos;, ip: &apos;10.0.2.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [85c37b1503fd0816307fc4448865b6ad, clickElement {id=d8d6e51e-d488-4497-b9ef-c1024661dd34}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\DELPHI~1.MUO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61561}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61561/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (85c37b1503fd0816307fc4448865b6ad)] -&gt; xpath: //p[@class=&apos;sc-dVhcbM iOSPTj&apos;][contains(text(),&apos;Transaction&apos;)]]
-Session ID: 85c37b1503fd0816307fc4448865b6ad
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at Transactions.viewTransactions(Transactions.java:22)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">TestLogin#NegativeTests</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">TestLogin#ValidEmailAndPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">ipConfiguration#CreateIPconfigSuccess</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Parallel Test</h2><h3 id="m0">TestLogin#NegativeTests</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestLogin#ValidEmailAndPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
