@@ -3,30 +3,15 @@
 <suite name="Failed suite [Suite]">
   <test thread-count="5" name="Parallel Test(failed)">
     <classes>
-      <class name="TestUsers">
+      <class name="TestLogin">
         <methods>
+          <include name="ValidEmailAndPassword"/>
           <include name="afterClass"/>
-          <include name="createSuccesful"/>
+          <include name="NegativeTests"/>
           <include name="beforeSuite"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- TestUsers -->
-      <class name="Payments">
-        <methods>
-          <include name="makePayment"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- Payments -->
-      <class name="Transactions">
-        <methods>
-          <include name="viewTransactions"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- Transactions -->
+      </class> <!-- TestLogin -->
     </classes>
   </test> <!-- Parallel Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -69,11 +69,11 @@ public void afterClass() {
         break;
      case ITestResult.SUCCESS :
     	 Screenshot.takeScreenShoot(driver, result.getMethod());
- 		Log.info("Test Failed at"+""+result.getMethod().getMethodName());
+ 		Log.info("Test was Successful at "+""+result.getMethod().getMethodName());
         break;
      case ITestResult.SKIP :
     	 Screenshot.takeScreenShoot(driver, result.getMethod());
- 		Log.info("Test Failed at"+""+result.getMethod().getMethodName());
+ 		Log.info("Test was Skipped at "+""+result.getMethod().getMethodName());
         break;
      default :
     	 }
